@@ -1,0 +1,53 @@
+    1  cd ~/git
+    2  cd ~/git
+    3  mkdir test
+    4  cd test
+    5  git clone https://github.com/yanay26/0_git_basics
+    6  nano backup.sh
+    7  git add backup.sh
+    8  git status
+    9  cd ~/git
+   10  cd test
+   11  git add backup.sh
+   12  ls -a
+   13  git init
+   14  git add backup.sh
+   15  git commit -m "Добавлен скрипт backup.sh"
+   16  git config --global user.email "yana.g2612@gmail.com"
+   17  git config --global user.name "yanay26"
+   18  git commit -m "Добавлен скрипт backup.sh"
+   19  git push origin master
+   20  YANA@DESKTOP-2GVQKSC MINGW64 ~/git/test (master)
+   21  $ git push origin master
+   22  fatal: 'origin' does not appear to be a git repository
+   23  fatal: Could not read from remote repository.
+   24  Please make sure you have the correct access rights
+   25  and the repository exists.
+   26  git remote -v
+   27  git remote add origin https://github.com/yanay26/0_git_basics
+   28  git remote -v
+   29  $ git push origin master
+   30  git push origin master
+   31  git pull origin master
+   32  git push origin master
+   33  git pull origin master --allow-unrelated-histories
+   34  git push origin master
+   35  git status
+   36  git add backup.sh
+   37  git commit -m "Добавление нового строки комментария"
+   38  git status
+   39  git add backup.sh
+   40  git status
+   41  git commit -m "Добавлена синтаксическая ошибка в скрипт"
+   42  git checkout -- backup.sh
+   43  git log
+   44  nano file1.txt
+   45  git add file1.txt
+   46  git commit -m "Первый коммит"
+   47  nano file1.txt
+   48  git add file1.txt
+   49  git commit -m "Второй коммит"
+   50  nano file1.txt
+   51  git add file1.txt
+   52  git commit -m "Третий коммит"
+   53  history > history.txt
